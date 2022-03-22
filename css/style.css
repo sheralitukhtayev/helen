@@ -1,0 +1,227 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.header-cap {
+    padding: 15px 0;
+}
+
+.header-cap h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+
+.header-view {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(121, 216, 219);
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-view-text {
+    width: 40%;
+    text-align: start;
+    /* padding: 50px 0; */
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+}
+
+.header-view-text div {
+    margin-bottom: 20px;
+}
+
+.header-view-text-h {
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+.header-view-text-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-view-text-undertext {
+    text-align: left;
+} 
+
+
+
+.btn button{
+    padding: 10px 20px;
+    background-color:rgb(121, 216, 219);
+    border: 2px solid black;
+    text-transform: uppercase;
+}
+
+.btn button a {
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.portfolio-cont {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.portfolio-heading {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.heading-line {
+    width: 30%;
+    height: 2px;
+    background-color: black;
+}
+
+.portfolio-heading h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.iphone-img {
+    background-color: rgb(237, 233, 224);
+    display: flex;
+    padding: 20px 0;
+}
+
+.iphone-pic {
+    margin: 0 auto; 
+    width: 300px;
+}
+
+.mix-image {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.mix-image img {
+    width: 30%;
+    height: 400px;
+    /* margin: 10px; */
+    image-resolution: cover;
+}
+
+.contact {
+    display: flex;
+    background-color: rgb(237, 233, 224);
+}
+
+.contact-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.contact-heading {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.contact-text {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-text h1 {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.contact-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-btn button{
+    text-align: center;
+    padding: 10px 20px ;
+    background-color: rgb(237, 233, 224);
+    border: 2px solid black;
+    color: black;
+}
+
+.contact-btn {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contact-btn a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.up-icon {
+    text-align: center;
+    margin: 20px 0;
+} 
+
+.up-icon img {
+    width: 50px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.footer-text {
+    margin: 0 auto;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+footer ul li {
+    /* border-right: 1px solid white; */
+    margin: 30px 20px;
+}
