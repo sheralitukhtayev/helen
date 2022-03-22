@@ -293,10 +293,44 @@ footer ul li {
 
 /* Tablet */
  @media (min-width: 768px) and (max-width: 1023px) {
+     .header-view {
+        width: 100%;
+     }
 
-}
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+    }
 
-/* Desktop */ 
-@media (min-width: 1024px) {
+    .header-view-text {
+        width: auto;
+        /* box-sizing: border-box; */
+        width: 40%;
+        padding: 20px 50px;
+    }
 
+    .header-view-img {
+        width: 60%;
+    }
+
+    .header-view-pic {
+        width: 100%;
+    }
+
+    .mix-image {
+        width: 100%;
+    }
+
+    .mix-image img {
+        height: auto;
+    }
+
+    .contact-heading {
+        width: 40%;
+    }
+
+    .contact-heading h1 {
+        margin: 0 auto;
+    }
 }
